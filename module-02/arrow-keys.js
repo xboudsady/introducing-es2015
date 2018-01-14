@@ -4,7 +4,7 @@ var Person = function(data) {
     for (var key in data) {
         this[key] = data[key];
     }
-    this.getKeys = function() {
+    this.getKeys = () => {
         return Object.keys(this);
     }
 }
