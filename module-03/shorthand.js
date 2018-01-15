@@ -8,3 +8,5 @@ function submit(name, comments, rating = 5) {
     }
     // .. do ajax request
 }
+
+submit('English', 'Great course!', 9);
